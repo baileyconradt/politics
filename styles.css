@@ -1,0 +1,43 @@
+
+.home-background{
+    width: 100%;
+    position: absolute;
+}
+
+.bg-dark {
+    background-color: rgb(23 23 23 / 50%) !important
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #031D44;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+  }
+  
+  .nav-link::before {
+    transition: 250ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #1c67bb;
+  }
+  
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+  }
+  
+  .nav-link-ltr:hover::before {
+    width: 100%;
+  }
