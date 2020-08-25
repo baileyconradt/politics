@@ -2,10 +2,11 @@
 .home-background{
     width: 100%;
     position: absolute;
+    z-index: -1;
 }
 
 .bg-dark {
-    background-color: rgb(23 23 23 / 50%) !important
+    background-color: rgb(23 23 23 / 75%) !important
 }
 
 .nav-link {
