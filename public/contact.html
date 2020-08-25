@@ -23,48 +23,52 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active nav-link nav-link-ltr" href="index.html">Home <span
+                <a class="nav-item nav-link nav-link nav-link-ltr" href="index.html">Home <span
                         class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link nav-link nav-link-ltr" href="platform.html">Platform</a>
                 <a class="nav-item nav-link nav-link nav-link-ltr" href="news.html">News</a>
-                <a class="nav-item nav-link nav-link nav-link-ltr" href="contact.html">Get Involved</a>
+                <a class="nav-item nav-link active nav-link nav-link-ltr" href="contact.html">Get Involved</a>
             </ul>
         </div>
     </nav>
 
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="card">
+    <div class="container">
+        <div class="row" style="height: 300px"></div>
+        <div class="row">
+            <div class="col">
 
-                <form class="text-center p-5" action="https://formspree.io/xwkrjgpe" method="POST">
+                <div class="card">
 
-                    <p class="h4 mb-4">Contact us</p>
-                    <!-- Name -->
-                    <input type="text" id="defaultContactFormName" name="Name" class="form-control mb-4"
-                        placeholder="Name">
-                    <!-- Email -->
-                    <input type="email" id="defaultContactFormEmail" name="E-mail" class="form-control mb-4"
-                        placeholder="E-mail">
-                    <!-- Phone -->
-                    <input type="phone" id="defaultContactFormPhone" name="Phone" class="form-control mb-4"
-                        placeholder="Phone Number">
+                    <form class="text-center p-5" action="https://formspree.io/xwkrjgpe" method="POST">
 
-                    <!-- Message -->
-                    <div class="form-group">
-                        <textarea class="form-control rounded-0" name="Message" id="exampleFormControlTextarea2"
-                            rows="3" placeholder="Message"></textarea>
-                    </div>
-                    <!-- Redirect Thank You-->
-                    <input type="hidden" name="_next" value="https://vote.baileyconradt.com/thankyou.html" />
+                        <p class="h4 mb-4">Contact Us</p>
+                        <!-- Name -->
+                        <input type="text" id="defaultContactFormName" name="Name" class="form-control mb-4"
+                            placeholder="Name">
+                        <!-- Email -->
+                        <input type="email" id="defaultContactFormEmail" name="E-mail" class="form-control mb-4"
+                            placeholder="E-mail">
+                        <!-- Phone -->
+                        <input type="phone" id="defaultContactFormPhone" name="Phone" class="form-control mb-4"
+                            placeholder="Phone Number">
 
-                    <!-- Send button -->
-                    <button class="btn btn-primary btn-block" type="submit">Send</button>
+                        <!-- Message -->
+                        <div class="form-group">
+                            <textarea class="form-control rounded-0" name="Message" id="exampleFormControlTextarea2"
+                                rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <!-- Redirect Thank You-->
+                        <input type="hidden" name="_next" value="https://vote.baileyconradt.com/thankyou.html" />
 
-                </form>
+                        <!-- Send button -->
+                        <button class="btn btn-primary btn-block" type="submit">Send</button>
+
+                    </form>
+
+                </div>
 
             </div>
         </div>
-        
     </div>
 
 

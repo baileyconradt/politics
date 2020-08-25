@@ -5,6 +5,14 @@
     z-index: -1;
 }
 
+body{
+  background-color: #1d3557 ;
+}
+
+.container {
+  background-color: transparent ;
+}
+
 .bg-dark {
     background-color: rgb(23 23 23 / 75%) !important
 }
