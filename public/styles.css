@@ -1,12 +1,32 @@
 
-.home-background{
+/* .home-background{
     width: 100%;
     position: absolute;
     z-index: -1;
-}
+} */
 
 body{
-  background-color: #1d3557 ;
+  
+    /* Location of the image */
+    background-image: url(images/capitol_side.jpg);
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    
+    /* Background image is fixed in the viewport so that it doesn't move when 
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+    
+    /* Set a background color that will be displayed
+       while the background image is loading */
+       background-color: #1d3557 ;
 }
 
 .container {
@@ -18,7 +38,7 @@ body{
 }
 
 
-
+/* CSS for nav links and underline*/
 .nav-link {
     font-weight: bold;
     font-size: 14px;
